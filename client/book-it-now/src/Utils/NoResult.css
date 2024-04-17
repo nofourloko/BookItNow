@@ -1,0 +1,15 @@
+.noResultContainer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.noResultHeader{
+    font-size: 50px;
+}
+.noResultLink:hover{
+    border-bottom:1px solid black;
+    cursor: pointer;
+}

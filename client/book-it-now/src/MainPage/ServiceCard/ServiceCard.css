@@ -1,0 +1,20 @@
+.serviceCard{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px #E8E8E8;
+    border-radius: 10px;
+    color: #053D38;
+    padding: 30px;
+        margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    height: 250px;
+   
+}
+
+.serviceCard:hover{
+    box-shadow: 1px 1px 10px #053D38;
+    cursor: pointer;
+}

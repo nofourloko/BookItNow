@@ -1,0 +1,27 @@
+.spanHeaderCategory{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.ServiceByCategoryCardImage{
+    width: 100%;
+}
+.ServiceByCategoryCardInfoDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ServiceByCategoryCardInfoDivTitle{
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.ServiceByCategoryCardInfoDivAddress{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ServiceByCategoryCardHoverEl:hover{
+    cursor: pointer;
+}
+

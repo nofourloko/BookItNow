@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+Button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#inputStyle{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#inputStyle:focus{
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(241, 241, 239, 1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(241, 241, 239, 1);
+    box-shadow: inset 0px 0px 10px 0px rgba(241, 241, 239, 1);
+    border-bottom: 1px solid #053D38 ;
+}
+    

@@ -1,0 +1,250 @@
+.divPickDay{
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divPickDay > img{
+    height: 20%;
+    margin: 0px 15px;
+}
+
+.divPickDay > img:hover{
+    cursor: pointer;
+}
+
+
+.DayCard{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    margin: 0px 10px;
+    height: 100%;
+}
+
+.dayStatus{
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    width: 60%;
+    height: 5px;
+    display: flex;
+}
+
+.green{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.yellow{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.orange{
+    height: 100%;
+    width: 25%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+.TimeOfTheDayDiv{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+}
+.TimeOfTheDayDiv > span{
+    text-align: center;
+    border-radius: 10px;
+    width: 33%;
+    padding: 10px;
+}
+
+
+.TimeOfTheDayDiv > span:hover{
+    cursor: pointer;
+}
+
+.hourSpan{
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 0px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.selectedServiceServiceDetailsDiv{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E8E8E8;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.selectedServiceServiceDetailsDiv > div{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.divSummarize{
+    margin-top: 10px;
+    border-top: 1px solid #E8E8E8;
+    width: 100%;
+}
+
+.divSummarize > div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.divPriceSummarize{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 0px;
+}
+
+.spanPrice{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0;
+}
+
+.procedButton{
+    width: 100%;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #A1CAF1;
+    margin: 10px;
+}
+
+.procedButton:hover{
+    box-shadow: 1px 1px 10px #E8E8E8;
+}
+
+.divReservationLoginRedirect{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divReservationLoginRedirectHeader{
+    font-size: 32px;
+}
+
+.serviceReserveContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.divReservationFinalInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.divReservationFinalInfoHeader{
+    font-size:36px;
+    font-weight: bolder;
+}
+.divReservationFinalInfoDetails{
+    font-size:26px;
+}
+
+.divReservationFinalInfoFooter{
+    font-size:16px;
+}
+
+.ReservationSuccessDiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.ReservationSuccessDiv > button {
+    width: 50%;
+
+}
+
+.ReservationSuccessDiv > span{
+    font-size: 42px;
+}
+
+.buttonNextService{
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #A1CAF1;
+    background-color: #E8E8E8;
+    margin: 10px;
+}
+
+.buttonNextService:hover{
+    box-shadow: 1px 1px 10px #A1CAF1;
+}
+
+.ReservationComments{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

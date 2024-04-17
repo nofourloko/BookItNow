@@ -1,0 +1,42 @@
+.scrollTopButton{
+    position: 'fixed';
+    bottom: '40px';
+    right: '40px';
+    box-shadow: none;
+
+    -webkit-animation: pulsate-fwd 1s ease-in-out infinite alternate-reverse both;
+	        animation: pulsate-fwd 1s ease-in-out infinite alternate-reverse both;
+
+            
+}
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+

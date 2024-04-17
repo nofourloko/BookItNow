@@ -1,0 +1,311 @@
+.userSegment{
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.greeting{
+    font-size: 32px;
+}
+
+.phoneNumber{
+    font-size: 16px;
+}
+
+.userSegments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 91vh;
+    border-right: 1px solid #E8E8E8;
+}
+
+#userSegmentLogoutSpn{
+  border: 1px solid #E8E8E8;
+}
+
+#userSegmentLogout{
+  display: flex;
+  height: 30%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+
+.userSegment:hover{
+    background-color: #E8E8E8;
+}
+
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+
+}
+.infoPageDiv{
+    padding: 50px;
+    font-size: 32px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divVists{
+    margin:30px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(33%, auto));
+    gap: 10px; 
+}
+
+.divVistsContainer{
+    overflow: scroll;
+    height: 90vh;
+    padding: 20px;
+}
+
+.divVistsItem{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #E8E8E8;
+    margin-bottom: 20px;
+}
+
+.divVistsItem > img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.divVistsItem > button {
+    width: 70%;
+    font-size: 15px;
+}
+.divVistsItemHeader{
+    font-weight: 300;
+}
+.divVistsContainerHeader{
+    font-size: 36px;
+}
+#userPanelEntrance, .userPanelEntrance{
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.userVisitInfoContainer, .userVisitInfoButtons{
+    display: flex;
+    flex-direction: row;
+    margin:30px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.userVisitInfoButtons > div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.divVisitInfoHeaderContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.userVisitInfoImg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.userVisitInfoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+.userPanelUserComment{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 10px;
+  border:1px solid #E8E8E8;
+}
+
+.userPanelUserComments{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.userPanelUserCommentsHeader{
+  font-size: 32px;
+}
+
+.userPanelUserComment > span {
+  text-align: center;
+  font-size: 26px;
+}
+
+.userPanelUserComment > span:hover{
+  cursor: pointer;
+  font-size: 28px;
+}
+
+#spanClose:hover{
+    -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.roll-out-right{
+	-webkit-animation: roll-out-right 0.6s ease-in both;
+	        animation: roll-out-right 0.6s ease-in both;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.scale-out-center {
+	-webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+  @-webkit-keyframes rotate-90-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+  @keyframes rotate-90-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+
+  @-webkit-keyframes roll-out-right {
+    0% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateX(1000px) rotate(540deg);
+              transform: translateX(1000px) rotate(540deg);
+      opacity: 0;
+    }
+  }
+  @keyframes roll-out-right {
+    0% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+@-webkit-keyframes scale-out-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-out-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,18 @@
+.errorPageContainer{
+    height: 91vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(240, 242, 237, 1);
+    background-image: linear-gradient(90deg, rgba(240, 242, 237, 1)  rgba(208, 211, 204, 1) 99%);
+}
+
+.errorPageMsg{
+    font-size: 26px;
+}
+
+.errorPageHeader{
+    font-size: 60px;
+    
+}
